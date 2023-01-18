@@ -1,0 +1,883 @@
+/* CONTACT INFO HEAD */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 60px;
+    background-color: rgba(14, 7, 57, 0.916);
+    color: white;
+    font-size: 18px;
+}
+
+.tophead a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.tophead a i {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.icons a {
+    color: white;
+}
+
+.icons a i {
+    font-size: 23px;
+    padding-right: 12px;
+}
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 0px 6px grey;
+}
+
+.logo {
+    margin-left: 83px;
+    color: aqua;
+}
+
+.logo h1 {
+    font-size: 55px;
+    background: linear-gradient(to right, #ff8818, #7a0dcd);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 58px;
+}
+
+.menu {
+    display: flex;
+    margin-right: 70px;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgba(14, 7, 57, 0.916);
+    margin-left: 33px;
+}
+
+.menu a li {
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.support {
+    background-color: rgb(255, 111, 0);
+    margin-left: 36px;
+    color: white;
+    padding: 7px 19px;
+    border-radius: 6px;
+    border: 1px solid orange;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.support:hover {
+    border: 1px solid orange;
+    color: black;
+    background-color: white;
+}
+
+/* FRONT DISPLAY CONTENT */
+
+.content {
+    background: url("./our-img/website.jpg") no-repeat center center/cover;
+    height: 125vh;
+}
+
+.main {
+    position: relative;
+    top: 17%;
+    margin-left: 70px;
+}
+
+#main-p {
+    width: 23%;
+    color: rgba(55, 52, 52, 0.518);
+    letter-spacing: .5px;
+    margin-top: 10px;
+}
+
+.main h3 {
+    color: rgb(8, 0, 63);
+    text-shadow: -2px 4px 5px;
+}
+
+.main h1 {
+    font-size: 55px;
+    background: linear-gradient(to top, #ff8818, #9000ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 700;
+    text-shadow: 0px 4px 1px linear-gradient(to top, #ff8818, #9000ff);
+}
+
+.getbtn {
+    margin-top: 5px;
+    padding: 10px 48px;
+    font-weight: 600;
+    background-color: rgba(14, 7, 57, 0.916);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    box-shadow: -3px 3px 0px orangered;
+}
+
+.getbtn:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid orangered;
+    box-shadow: none;
+}
+
+/* RETHINKING PAGE */
+
+.web2 {
+    background: url(./our-img/web2.jpg) no-repeat center center/cover;
+    height: 109vh;
+}
+
+.content2 {
+    float: right;
+    margin: 8% 7% 0px 0px;
+    width: 41%;
+}
+
+.content2 h4 {
+    background: linear-gradient(to right, #fc7a00, #0015ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+}
+
+.content2 h1 {
+    letter-spacing: 1px;
+    color: rgba(14, 7, 57, 0.916);
+    font-weight: bold;
+    text-shadow: 1px 4px 3px rgb(108, 171, 173);
+}
+
+.content2 p {
+    margin-top: 23px;
+    letter-spacing: 0.11px;
+    color: rgba(55, 52, 52, 0.518);
+}
+
+.content2 button {
+    margin-top: 20px;
+    padding: 12px 47px;
+    font-weight: bold;
+    background-color: rgba(14, 7, 57, 0.916);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    box-shadow: -3px 3px 0px orangered;
+}
+
+.content2 button:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid orangered;
+    box-shadow: none;
+}
+
+/* EDUCATION PAGE SAMVAAD ERP */
+
+.web3 {
+    display: flex;
+    height: 105vh;
+    padding-top: 24px;
+    background: #f5f3ff;
+}
+
+.content3 {
+    margin-left: 100px;
+    width: 33%;
+}
+
+.content3 h4 {
+    background: linear-gradient(to right, #fc7a00, #0015ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+}
+
+.content3 h1 {
+    letter-spacing: 1px;
+    color: rgba(14, 7, 57, 0.916);
+    font-weight: bold;
+    text-shadow: 1px 4px 3px rgb(108, 171, 173);
+}
+
+.content3 p {
+    margin-top: 30px;
+    color: rgba(55, 52, 52, 0.877);
+    letter-spacing: 1px;
+}
+
+.content3 button {
+    margin-top: 40px;
+    padding: 12px 47px;
+    font-weight: bold;
+    background-color: rgba(14, 7, 57, 0.916);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    box-shadow: -3px 3px 0px orangered;
+}
+
+.content3 button:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid orangered;
+    box-shadow: none;
+}
+
+.content4 {
+    width: 63%;
+    display: flex;
+    margin-left: 61px;
+}
+
+#box1,
+#box2,
+#box3,
+#box4 {
+    width: 83%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: -1px -2px 13px #b4a7ff;
+}
+
+.iconimg {
+    height: 80px;
+    margin-top: 9px;
+    box-shadow: 0px -1px 5px darkseagreen;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#box1 {
+    background-color: rgb(13 8 44);
+    color: white;
+    border-radius: 10px;
+}
+
+#box1 h4 {
+    font-size: 21px;
+    margin-top: 12px;
+}
+
+#box1 p {
+    color: #f5f5f5b3
+}
+
+#box2 {
+    background: linear-gradient(white, white) padding-box, linear-gradient(#0015ff, #fc7a00) border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#box3 {
+    background: linear-gradient(white, white) padding-box, linear-gradient(#0015ff, #fc7a00) border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+    margin-top: 43px;
+}
+
+#box4 {
+    margin-top: 30px;
+    background: linear-gradient(white, white) padding-box, linear-gradient(#0015ff, #fc7a00) border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+/* BORDER IMG */
+
+.web4 img {
+    width: 100%;
+}
+
+/* OUR PRODUCT PAGE */
+
+.web5 {
+    background-color: #060330;
+    padding-top: 5%;
+    height: 100vh;
+}
+
+.web5 #bring {
+    text-align: center;
+    color: orangered;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.web5 h1 {
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+}
+
+#content5 {
+    display: flex;
+    margin: 30px 6%;
+}
+
+.box5 {
+    border-bottom: solid rgba(255, 68, 0, 0.913) 6px;
+    color: white;
+    width: 50%;
+    padding: 19px 3px 0px 17px;
+    background-image: linear-gradient(to right, #594dd9, darkblue);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box5 h4 {
+    font-weight: bold;
+}
+
+.box5 p {
+    font-family: inherit;
+    letter-spacing: .4px;
+    color: #f5f5f5e0;
+}
+
+.box5 img {
+    height: 100px;
+}
+
+.box6 {
+    border-bottom: solid rgb(41 35 175 / 79%) 6px;
+    margin: 10px;
+    width: 25%;
+    background-color: white;
+    padding: 13px 3px 0px 6px;
+    border-radius: 10px;
+}
+
+.box6 p {
+    font-family: inherit;
+    font-size: 18px;
+    padding: 3px 5px;
+    color: #0000008a;
+}
+
+.box6 h4 {
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.box6 img {
+    height: 100px;
+}
+
+.box7 {
+    width: 25%;
+    margin: 10px;
+}
+
+.sec1 {
+    border-bottom: solid rgb(41 35 175 / 79%) 6px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    height: 47%;
+    border-radius: 10px;
+}
+
+.sec2 {
+    border-bottom: solid rgb(41 35 175 / 79%) 6px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    margin-top: 22px;
+    height: 47%;
+    border-radius: 10px;
+}
+
+.sec1 img {
+    height: 122px;
+}
+
+.sec2 img {
+    height: 122px;
+}
+
+.sec1 h4,
+.sec2 h4 {
+    font-weight: bold;
+}
+
+/* BORDER IMG BOX */
+
+.imgbox img {
+    width: 100%;
+}
+
+/* OUR CLIENT HEADING */
+
+.web6 h4 {
+    padding-left: 95px;
+    background: linear-gradient(to right, #fc7a00, #0015ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+}
+
+.about1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 90px;
+}
+
+.about1 h1 {
+    letter-spacing: 1px;
+    color: rgba(14, 7, 57, 0.916);
+    font-weight: bold;
+    text-shadow: 1px 4px 3px rgb(108 171 173);
+}
+
+.abutbtn button {
+    padding: 5px 22px;
+    color: #4239db;
+    border: 2px solid #fc7a00;
+    margin-right: 3px;
+    background-color: white;
+    box-shadow: 1px 1px 3px #da4812ad;
+    border-radius: 3px;
+}
+
+/* OUR CLIENT REVIEW */
+
+#main {
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 10%;
+}
+
+.web7 {
+    border: 2px solid #060330;
+    width: 50%;
+    margin: 0px 20px;
+    border-radius: 8px;
+    box-shadow: -1px -1px 5px #4c33b2;
+}
+
+#ci1 {
+    margin-left: 75px;
+}
+
+#ci2 {
+    margin-right: 75px;
+}
+
+.client1 {
+    display: flex;
+    align-items: center;
+}
+
+.client2 {
+    display: flex;
+    align-items: center;
+}
+
+.client1 img {
+    height: 100px;
+}
+
+.client2 img {
+    height: 100px;
+}
+
+.client2,
+.clientpara2,
+.client1,
+.clientpara1 {
+    padding: 13px 5px 5px 14px;
+}
+
+.client2 h5,
+.client1 h5 {
+    padding: 15px 8px 0px 5px;
+    font-weight: bold;
+}
+
+.client2 h5 p,
+.client1 h5 p {
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* OUR APP */
+
+.application {
+    display: flex;
+    padding: 10px 20px 10px 83px;
+    height: 100vh;
+    margin-top: 15%;
+}
+
+.app1 {
+    width: 33%;
+}
+
+.app1 h4 {
+    background: linear-gradient(to right, #fc7a00, #0015ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+}
+
+.app1 h1 {
+    letter-spacing: 1px;
+    color: rgba(14, 7, 57, 0.916);
+    font-weight: bold;
+    text-shadow: 1px 4px 3px rgb(108 171 173);
+    margin-top: 20px;
+}
+
+.app1 ul {
+    margin-top: 30px;
+}
+
+.app1 ul li {
+    padding-top: 40px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(15 10 47 / 44%);
+    letter-spacing: .5px;
+}
+
+.app1 ul li i {
+    padding-right: 15px;
+    color: #0015ff8a;
+}
+
+#first {
+    color: #fc6804de;
+}
+
+.fontcng {
+    color: #4239db;
+}
+
+.app1 span {
+    color: #374365;
+}
+
+.app2 {
+    width: 33%;
+    padding-left: 20px;
+}
+
+.app3 h2 {
+    padding-bottom: 20px;
+    background: linear-gradient(to right, #fc7000, #0015ff91);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    font-size: 37px;
+}
+
+.app3 p {
+    color: #000000a8;
+}
+
+.app3 {
+    width: 33%;
+    padding-top: 13%;
+}
+
+.app2 img {
+    height: 90%;
+}
+
+#app-play {
+    display: flex;
+}
+
+/* FOR DOWNLOAD OUR APPLICATION */
+
+.logoicon {
+    display: flex;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-bottom: 0px;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.logoicon i {
+    font-size: 30px;
+}
+
+.logoicon img {
+    height: 34px;
+}
+
+.logoicon p {
+    font-size: 8px;
+    padding-left: 8px;
+    line-height: 13px;
+    color: #f5f5f5e3;
+}
+
+.logoicon p span {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.logoicon a {
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+
+#play-store {
+    margin-left: 15px;
+}
+
+#app-store {
+    width: 140px;
+}
+
+/* PARTNER SECTION */
+
+.partner {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.part1 h3 {
+    background: linear-gradient(to right, #fc7a00, #0015ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+}
+
+.part1 h1 {
+    letter-spacing: 1px;
+    color: rgba(14, 7, 57, 0.916);
+    font-weight: bold;
+    text-shadow: 1px 4px 3px rgb(108 171 173);
+}
+
+.part2 img {
+    height: 130px;
+}
+
+/* BORDER IMG */
+
+.borderimg img {
+    width: 100%;
+}
+
+/* BOTTOM BOX */
+
+.bottom-box {
+    background-color: #060330;
+    position: absolute;
+}
+
+/* GROW OUR BUSINESS */
+
+#business {
+    display: flex;
+    border-radius: 6px;
+    align-items: center;
+    margin: 50px 88px;
+    color: white;
+    padding: 30px 40px 23px 40px;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #594dd9, #181362ab);
+}
+
+.grow1 {
+    width: 65%;
+}
+
+.grow1 h2 {
+    text-shadow: 2px 2px 5px darkgreen;
+    font-weight: bold;
+    font-size: 34px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.grow1 p {
+    padding: 0px 10px 0px 10px;
+    color: #ffffffb5;
+}
+
+.growbtn button {
+    padding: 12px 47px;
+    font-weight: bold;
+    background-color: rgb(255 104 0 / 88%);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    box-shadow: -3px 3px 0px orangered;
+}
+
+.growbtn button:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid orangered;
+    box-shadow: none;
+}
+
+/* IMPORTANT LINK AND PRODUCTS IN BOTTOM */
+
+.contact-pro-product {
+    display: flex;
+    color: white;
+    margin: 0px 88px;
+}
+
+/* ABOUT COMPANY */
+
+.abtcom {
+    width: 33%;
+    margin: 10px;
+}
+
+.abtcom h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 55px;
+}
+
+.abtcom p {
+    color: #ffffffb5;
+    letter-spacing: .1px;
+    margin-top: 30px;
+}
+
+/* ABOUT PRODUCT */
+
+.our-product {
+    width: 16.5%;
+    margin: 10px;
+}
+
+.our-product h5 {
+    padding-bottom: 20px;
+    margin-top: 20px;
+    color: orangered;
+    font-weight: bold;
+}
+
+.our-product ul a {
+    text-decoration: none;
+    color: #ffffffdb;
+}
+
+.our-product ul {
+    margin-top: 23px;
+}
+
+.our-product ul a li {
+    padding: 5px 0px;
+    list-style: circle;
+}
+
+/* IMPORTANT LINKS */
+
+#imp-link {
+    width: 16.5%;
+    margin: 10px;
+}
+
+/* CONTACT US SECTION */
+
+.contact-us {
+    width: 30%;
+    margin: 10px;
+    margin-top: 68px;
+}
+
+.contact-us a {
+    text-decoration: none;
+    color: white;
+}
+
+#cell {
+    padding-bottom: 33px;
+}
+
+#cell i {
+    font-size: 22px;
+    background: white;
+    color: #060330;
+    padding: 8px 11px;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+#email {
+    padding-bottom: 33px;
+}
+
+#email i {
+    font-size: 22px;
+    background: white;
+    color: #060330;
+    padding: 8px 9px;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+#location {}
+
+#location i {
+    font-size: 22px;
+    background: white;
+    color: #060330;
+    padding: 8px 11px;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+hr {
+    color: white;
+    margin: 23px 122px 39px 91px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    font-weight: 400;
+    color: #ffffffcf;
+    margin-bottom: 30px;
+}
